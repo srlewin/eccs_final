@@ -16,7 +16,8 @@ void triangle_reverse_down(){
 	for (int r = 0; r < 5; r++) {
 		for (int c = 1; c <= 5; c++) {
 			if (c <= r) cout << " ";
-		else cout << "*";
+		else 
+		cout << "*";
 	}
 		cout << endl;
 	}
